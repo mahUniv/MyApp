@@ -1,0 +1,29 @@
+Git csm Learing commands
+
+$ touch index.html
+$ touch app.js
+
+$ git init لانشاء ملفات مخفية خاصة بالكيت
+
+$ git config --global user.name 'mahmoud'
+$ git config --global user.email 'eng.right@gmail.com'
+
+$ git add index.html لاضافة لتعديلات
+$ git status 
+$ git rm --cached index.html لحذف التعديلات المؤقتة
+
+$ git add *.html اضافة التعديلات لكل ملفات الhtml
+
+$ git add . اضافة كل الملفات
+
+$ git commit تثبيت التعديلات
+$ git commit -m 'another change' لتثبيت التعديلات في غير فرع
+
+:wq للعودة من ملخص العمل الى واجهة التعليات
+
+$ git commit -m 'changed app.js' تثبيت التعديلات بدون الانتقال الى واجهة الخلاصة
+
+$ git branch login انشاء فرع باسم
+
+$ git checkout login الانتقال للعمل في الفرع ال
+
